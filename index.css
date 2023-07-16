@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav{
+  background-color: white;
+  padding: 20px 36px;
+  display:flex;
+
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.logo{
+  max-width: 100;
+}
+
+
+.hero{
+
+  padding: 80px 80px;
+  
+  
+}
+.grid{
+  
+  width: 395.906px;
+  height: 232px;
+  flex-shrink: 0;
+}
+
+.card{
+  width: 175px;
+  margin:30px;
+  font-size: 12px;
+  flex: 0 0 auto;         
+  position: relative;
+  flex-direction: column; 
+}
+
+
+
+.list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.main_photo{
+  
+  width: 176px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 9px;
+}
+.star{
+  width:10px;
+  height:10px;
+}
+
+.rating{
+  font-size: 12px;
+}
+.review-count{
+  color:grey;
+  font-size: 12px;;
+}
+
+.badger{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
